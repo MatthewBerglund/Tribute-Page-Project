@@ -1,3 +1,4 @@
+/* --- GENERIC STYLING --- */
 html {
     font-family: sans-serif;
 }
@@ -6,4 +7,80 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.page-container {
+    padding: 1rem;
+}
+
+/* --- HEADER SECTION STYLES --- */
+.header-description {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+
+/* --- IMAGE/CAPTION STYLES --- */
+.img-container {
+    background-color: #CCB7BD;
+    padding: 3px;
+    margin: 0 -1rem 0 -1rem;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.img-caption {
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* --- MAIN CONTENT AREA STYLES --- */
+.tribute-info {
+    margin: 2em 0;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.tribute-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+.tribute-text:last-of-type {
+    margin-bottom: 0;
+}
+
+/* --- FOOTER STYLES --- */
+footer {
+    background-color: #CCB7BD;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    padding: .8em 1.5em;
+    margin: 0 -1rem 0 -1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #0C265A;
+}
+
+a:visited {
+    color: rgb(185, 51, 27);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: #cea4b0;
 }
