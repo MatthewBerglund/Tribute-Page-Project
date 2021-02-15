@@ -13,6 +13,30 @@ html {
     padding: 1rem;
 }
 
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #0C265A;
+}
+
+a:visited {
+    color: rgb(185, 51, 27);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: #cea4b0;
+}
+
 /* --- HEADER SECTION STYLES --- */
 .header-description {
     font-size: 0.9rem;
@@ -63,24 +87,4 @@ footer {
     line-height: 1.5;
     padding: .8em 1.5em;
     margin: 0 -1rem 0 -1rem;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:link {
-    color: #0C265A;
-}
-
-a:visited {
-    color: rgb(185, 51, 27);
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:active {
-    background-color: #cea4b0;
 }
