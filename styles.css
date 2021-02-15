@@ -9,10 +9,6 @@ html {
     box-sizing: border-box;
 }
 
-.page-container {
-    padding: 1rem;
-}
-
 h1, h2 {
     font-family: Georgia, serif;
 }
@@ -22,11 +18,11 @@ a {
 }
 
 a:link {
-    color: #0C265A;
+    color: #4a6aa8;
 }
 
 a:visited {
-    color: rgb(185, 51, 27);
+    color: #8f2241;
 }
 
 a:hover {
@@ -37,17 +33,38 @@ a:active {
     background-color: #cea4b0;
 }
 
+body {
+    background-color: #f3f3f3;
+}
+
+.page-container {
+    padding: 30px 30px;
+    max-width: 700px;
+    background-color: white;
+}
+
 /* --- HEADER SECTION STYLES --- */
+.header {
+    /* padding: 1em 1em; */
+}
+
+.header-title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
 .header-description {
     font-size: 0.9rem;
-    margin: 10px 0;
+    margin: 1em 0;
+    /* border: 1px solid black; */
 }
 
 /* --- IMAGE/CAPTION STYLES --- */
 .img-container {
-    background-color: #CCB7BD;
+    background-color: #ca7c92;
     padding: 3px;
-    margin: 0 -1rem 0 -1rem;
+    /* max-width: 550px; */
+    
 }
 
 .main-img {
@@ -55,18 +72,20 @@ a:active {
 }
 
 .img-caption {
-    font-size: 0.8rem;
+    font-size: .8rem;
     font-style: italic;
     text-align: center;
-    padding-top: 15px;
+    padding: 8px 8px;
 }
 
 /* --- MAIN CONTENT AREA STYLES --- */
 .tribute-info {
-    margin: 2em 0;
+    margin: 1.6em 0;
+    /* padding: 1em 1em; */
 }
 
 h2 {
+    font-size: 1rem;
     margin-bottom: 1em;
 }
 
@@ -82,9 +101,49 @@ h2 {
 
 /* --- FOOTER STYLES --- */
 footer {
-    background-color: #CCB7BD;
+    background-color: #ca7c92;
     font-size: 0.8rem;
     line-height: 1.5;
-    padding: .8em 1.5em;
-    margin: 0 -1rem 0 -1rem;
+    padding: 20px 1em;
+    text-align: center;
+}
+
+
+/* STYLES FOR ALL SCREENS LARGER THAN SMARTPHONES */
+@media screen and (min-width: 576px) {
+    .page-container {
+        width: 90%;
+        margin: 30px auto;
+        padding: 30px 30px;
+        border: 1px solid black;
+    }
+    
+    /* --- HEADER SECTION STYLES ---*/
+    .header {
+        padding: 0;
+    }
+    
+    .header-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    
+    .header-description {
+        font-size: 0.9rem;
+        margin: 1.5em 0;
+    }
+
+    /* --- MAIN CONTENT AREA STYLES --- */
+    .tribute-info {
+        padding: 0;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .tribute-text {
+        line-height: 1.2;
+    }
+    
 }
