@@ -44,10 +44,6 @@ body {
 }
 
 /* --- HEADER SECTION STYLES --- */
-.header {
-    /* padding: 1em 1em; */
-}
-
 .header-title {
     font-size: 1.5rem;
     letter-spacing: 1px;
@@ -56,19 +52,17 @@ body {
 .header-description {
     font-size: 0.9rem;
     margin: 1em 0;
-    /* border: 1px solid black; */
 }
 
 /* --- IMAGE/CAPTION STYLES --- */
 .img-container {
     background-color: #ca7c92;
-    padding: 3px;
-    /* max-width: 550px; */
-    
+    padding: 3px;    
 }
 
 .main-img {
-    width: 100%;
+    display: blocK;
+    max-width: 100%;
 }
 
 .img-caption {
@@ -81,7 +75,6 @@ body {
 /* --- MAIN CONTENT AREA STYLES --- */
 .tribute-info {
     margin: 1.6em 0;
-    /* padding: 1em 1em; */
 }
 
 h2 {
